@@ -1,0 +1,87 @@
+h2{
+	color: green;
+	background-color: black;
+}
+body{
+	background-color: white;
+	margin: 10px 0;
+}
+
+footer{
+	text-align: center;
+}
+nav{
+	background-color: #8a998e;
+	
+}
+
+.logo{
+	margin: 0 auto;
+	display:block;
+}
+
+main{
+	max-width: 1200px;
+	margin: auto;
+	
+}
+.left {
+ float: left;
+ padding: 0 20px 20px 0;
+}
+footer {
+    height: 100px;
+    background-color: #eee;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+}
+
+/* Navigation Bar */
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 8px 0;
+	margin-top:0;
+
+}
+nav li{
+	display: inline;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+	color: black;
+}
+nav a: link{
+	color:black;
+}
+nav a:visited {
+	color:purple;
+}
+nav a:hover {
+	color:orange;
+}
+nav a:active {
+	color:black;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1{
+        font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 1.5em;
+    }
+}
