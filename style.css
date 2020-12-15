@@ -1,7 +1,4 @@
-h2{
-	color: green;
-	background-color: black;
-}
+
 body{
 	background-color: white;
 	margin: 10px 0;
@@ -11,7 +8,7 @@ footer{
 	text-align: center;
 }
 nav{
-	background-color: #8a998e;
+	
 	
 }
 
@@ -49,16 +46,19 @@ html, body {
 nav ul{
 	list-style-type: none;
 	text-align: center;
-	padding: 8px 0;
 	margin-top:0;
 
 }
 nav li{
 	display: inline;
+	background-color: #8a998e;
+	padding: 8px 10px;
+	border-radius: 50px;
+	
 }
 nav a {
 	text-decoration: none;
-	padding-right: 10px;
+
 	color: black;
 }
 nav a: link{
